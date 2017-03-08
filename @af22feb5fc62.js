@@ -16,3 +16,4 @@
  def hook(ui, repo, node=None, source=None, **kwargs):
      if source in ('pull', 'strip'):
          return 0
+
